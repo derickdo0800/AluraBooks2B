@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position:relative;
+    position: relative;
 }
 .container{
     display: flex;
@@ -24,15 +24,18 @@
     display: none;
     position: absolute;
     top: 100%;
-    
 }
-.container-botao:checked~.lista-menu{
+.container-botao:checked ~ .lista-menu{
     display: block;
 }
-.Lista-Menu-Titulo,.Lista-item{
-   padding: 1em; 
-   background-color: var(--branco);
+.lista-menu-titulo,.lista-item{
+    padding: 1em;
+    background-color: var(--branco);
 }
-.Lista-Menu-Titulo{
+.lista-menu-titulo{
     color: var(--laranja);
+    font-weight: 700;
+}
+.container-botao{
+    display: none;
 }
