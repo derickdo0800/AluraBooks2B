@@ -8,7 +8,6 @@
     padding: 1em 0 0.5em 0;
 }
 .swiper-slide img{
-
     width: 100%;
 }
 .swiper-button-prev,.swiper-button-next{
@@ -17,4 +16,9 @@
 .swiper-pagination{
     position: initial;
     margin: 0.5em 0;
+}
+.card-descricao{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
 }
